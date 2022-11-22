@@ -1,0 +1,54 @@
+{
+  "mascotas": [
+    {
+      "id": 1666742862147,
+      "titulo": "Oportunidad perro grande",
+      "descripcion": "Bonito y grande",
+      "tipo": "Perro",
+      "precio": 45000,
+      "raza": "Gran danes",
+      "fechaDeNacimiento": "22/02/2018",
+      "vacuna": "Si"
+    },
+    {
+      "id": 1666742886461,
+      "titulo": "Oportunidad unica",
+      "descripcion": "Amigable, manso",
+      "tipo": "Gato",
+      "precio": 38000,
+      "raza": "Siames",
+      "fechaDeNacimiento": "28/12/2021",
+      "vacuna": "No"
+    },
+    {
+      "id": 1666742914282,
+      "titulo": "Oportunidad increible!",
+      "descripcion": "Perro grande, atletico",
+      "tipo": "Perro",
+      "precio": 50000,
+      "raza": "Ovejero",
+      "fechaDeNacimiento": "22/05/2022",
+      "vacuna": "No"
+    },
+    {
+      "id": 1666743334954,
+      "titulo": "Linda mascota",
+      "descripcion": "Bonita",
+      "tipo": "Gato",
+      "precio": 15000,
+      "raza": "Leopardo",
+      "fechaDeNacimiento": "22/04/2015",
+      "vacuna": "Si"
+    },
+    {
+      "id": 1666743386505,
+      "titulo": "Oportunidad inmejorable!",
+      "descripcion": "Copado y amigable",
+      "tipo": "Gato",
+      "precio": 46000,
+      "raza": "Siames",
+      "fechaDeNacimiento": "23/04/2021",
+      "vacuna": "Si"
+    }
+  ]
+}

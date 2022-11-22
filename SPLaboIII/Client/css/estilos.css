@@ -1,0 +1,571 @@
+/**{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(201, 76, 26);
+    color: white;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav,footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(201, 76, 26);
+    align-items: center;
+    padding: 0 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+ul{
+    display: flex;
+}
+
+#navHeader
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+li{
+    list-style-type: none;
+    padding: 1px 40px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.4em;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.banner{
+ width: 100%;  
+ height: 400px; 
+}
+
+h1{
+    line-height: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
+}
+
+fieldset{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+}
+
+input[type="text"],input[type="number"]{
+    border-radius: 5px;
+    background-color: #ec9e69;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    display: block;
+    width: 97%;
+    height: 25px;
+}
+
+#titulo{
+    display: block;
+}
+
+#animales{
+display: inline;
+width: 100px;
+background-color: #ec9e69;
+}
+
+.select{
+    width: 200px;
+    height: 30px;
+}
+  
+.tipoAnimal{
+    display: flex;
+    flex-direction: row;
+}
+  
+  
+  
+#precio{
+      display: block;
+}
+  
+label{
+    display: block;
+ }
+  
+#contenedorAnimales{
+    display: flex;
+    justify-content: space-between;
+}
+  
+#btnAgregarModificar{
+    width: 18%;
+    height: 30px;
+    padding-left: 20px;
+    display: inline-block;
+}
+  
+#btnLimpiar{
+    width: 18%;
+    height: 30px;
+    padding-left: 20px;
+}
+
+#btnEliminar{
+    width: 18%;
+    height: 30px;
+    background-image: url(../imagenes/boton-eliminar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-position: 5px;
+    background-size: 20px;
+}
+
+#btnLimpiar{
+    background-image: url(../imagenes/limpiar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 20px;
+}
+
+#btnAgregarModificar{
+    background-image: url(../imagenes/salvar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 3px;
+    background-size: 20px;
+}
+
+
+
+#logos{
+    height: 20px;
+    display: inline;
+}
+
+#btnEliminar:hover{
+    background-color: indianred;
+}
+
+#btnLimpiar:hover{
+    background-color: rgb(189, 226, 23);
+}
+
+
+.hidden{
+    display: none;
+}
+
+#btnAgregarModificar:hover{
+    background-color: rgb(62, 235, 10);
+}
+
+
+
+thead{
+    background-color: #d7ec9c;
+    border-bottom: solid 5px #e4c205;
+    color: white;
+    text-transform: capitalize;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #d38a68;
+    color: white;
+}
+
+th,td{
+    padding: 1px;
+    width: 90px;
+}
+
+td{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+table{  
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin: 20px auto;
+    border: #333 solid 2px;
+}
+
+tbody{
+    cursor: pointer;
+}
+
+#divFiltro
+{
+    margin: 0 auto;
+    background-color: #794c4c;
+    width: 600px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#filtro,#promedio
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#filtro
+{  
+    width: 100px;
+    height: 30px;
+}
+
+#promedio
+{
+    width: 120px;
+}
+
+#filtroTabla
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    margin-left: 80px;
+    font-weight: bold;
+
+}*/
+
+.header{
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.4em;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+
+nav,footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(201, 76, 26);
+    align-items: center;
+    padding: 0 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+ul{
+    display: flex;
+}
+
+#ulFooter
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#navHeader
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+li{
+    list-style-type: none;
+    padding: 1px 40px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.banner{
+ width: 100%;  
+ height: 400px; 
+}
+
+h1{
+    line-height: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
+}
+
+fieldset{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+
+#animales{
+display: inline;
+width: 150px;
+background-color: #ec9e69;
+}
+
+#vacunacion{
+    display: inline;
+    width: 75px;
+    background-color: #ec9e69;
+}
+
+.select{
+    width: 200px;
+    height: 30px;
+}
+  
+.tipoAnimal{
+    display: flex;
+    flex-direction: row;
+}
+  
+  
+  
+#precio{
+      display: block;
+}
+  
+label{
+    display: block;
+ }
+  
+#contenedorAnimales{
+    display: flex;
+    justify-content: space-between;
+}
+  
+#btnAgregarModificar{
+    width: 18%;
+    height: 30px;
+    padding-left: 20px;
+    display: inline-block;
+}
+  
+#btnLimpiar{
+    width: 18%;
+    height: 30px;
+    padding-left: 20px;
+}
+
+#btnEliminar{
+    width: 18%;
+    height: 30px;
+    background-image: url(../imagenes/boton-eliminar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-position: 2px;
+    background-size: 20px;
+}
+
+#btnLimpiar{
+    background-image: url(../imagenes/limpiar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 2px;
+    background-size: 20px;
+}
+
+#btnAgregarModificar{
+    background-image: url(../imagenes/salvar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 1px;
+    background-size: 20px;
+    width: 99px;
+}
+
+
+
+#logos{
+    height: 20px;
+    display: inline;
+}
+
+#btnEliminar:hover{
+    background-color: indianred;
+}
+
+#btnLimpiar:hover{
+    background-color: rgb(189, 226, 23);
+}
+
+
+.hidden{
+    display: none;
+}
+
+#btnAgregarModificar:hover{
+    background-color: rgb(62, 235, 10);
+}
+
+input[type="text"],input[type="number"]{
+
+    background-color: #ec9e69;
+}
+
+thead{
+    background-color: #f36c43;
+    border-bottom: solid 5px #e4c205;
+    color: white;
+    text-transform: capitalize;
+}
+
+tr:nth-child(even){
+    background-color: rgb(223, 197, 176);
+}
+
+tr:hover td{
+    background-color: #d38a68;
+    color: white;
+}
+
+th,td{
+    padding: 1px;
+    width: 90px;
+}
+
+td{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+table{  
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin: 20px auto;
+    border: #333 solid 2px;
+}
+
+tbody{
+    cursor: pointer;
+}
+
+#divFiltro
+{
+    margin: 0 auto;
+    background-color: indianred;
+    width: 600px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#filtro,#promedio
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#filtro
+{  
+    width: 100px;
+    height: 30px;
+}
+
+#promedio
+{
+    width: 120px;
+}
+
+#filtroTabla
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    margin-left: 80px;
+    font-weight: bold;
+}
